@@ -4,6 +4,10 @@ import Navbar from "../../components/Navbar/Navbar";
 import Announcement from "../../components/Announcement/Announcement";
 import Newsletter from "../../components/Newsletter/Newsletter";
 import {
+  AddContainer,
+  Amount,
+  AmountContainer,
+  Button,
   Container,
   Desc,
   Filter,
@@ -18,6 +22,7 @@ import {
   Title,
   Wrapper,
 } from "./ProductDetailStyles";
+import { AddCircle, RemoveCircle } from "@mui/icons-material";
 
 const ProductDetail = () => {
   return (
@@ -45,6 +50,14 @@ const ProductDetail = () => {
               </FilterVariant>
             </Filter>
           </FilterContainer>
+          <AddContainer>
+            <AmountContainer>
+              <RemoveCircle />
+              <Amount>1</Amount>
+              <AddCircle />
+            </AmountContainer>
+            <Button>Add to Cart</Button>
+          </AddContainer>
         </InfoContainer>
       </Wrapper>
       <Newsletter />

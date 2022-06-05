@@ -58,3 +58,39 @@ export const FilterVariant = styled.select`
 `;
 
 export const FilterVariantOption = styled.option``;
+
+export const AddContainer = styled.div`
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const AmountContainer = styled.div`
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+`;
+
+export const Amount = styled.span`
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+`;
+
+export const Button = styled.button`
+  padding: 10px;
+  border: 1px solid teal;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 400;
+
+  &:hover {
+    background-color: #eeeeee;
+  }
+`;
