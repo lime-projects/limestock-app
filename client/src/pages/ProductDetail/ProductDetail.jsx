@@ -6,6 +6,11 @@ import Newsletter from "../../components/Newsletter/Newsletter";
 import {
   Container,
   Desc,
+  Filter,
+  FilterContainer,
+  FilterTitle,
+  FilterVariant,
+  FilterVariantOption,
   Image,
   ImgContainer,
   InfoContainer,
@@ -31,6 +36,15 @@ const ProductDetail = () => {
             laboriosam molestias dolore.
           </Desc>
           <Price>20000</Price>
+          <FilterContainer>
+            <Filter>
+              <FilterTitle>Variant</FilterTitle>
+              <FilterVariant>
+                <FilterVariantOption>1</FilterVariantOption>
+                <FilterVariantOption>2</FilterVariantOption>
+              </FilterVariant>
+            </Filter>
+          </FilterContainer>
         </InfoContainer>
       </Wrapper>
       <Newsletter />
