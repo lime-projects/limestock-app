@@ -1,5 +1,6 @@
 import React from "react";
 import { Search, ShoppingCartOutlined } from "@mui/icons-material";
+import { Badge } from "@mui/material";
 
 import {
   Container,
@@ -13,7 +14,6 @@ import {
   Logo,
   MenuItem,
 } from "./NavbarStyles";
-import { Badge } from "@mui/material";
 
 const Navbar = () => {
   return (
@@ -22,7 +22,12 @@ const Navbar = () => {
         <Left>
           <Language>ID</Language>
           <SearchContainer>
-            <Input type="search" name="search" id="search" />
+            <Input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search.."
+            />
             <Search style={{ fontSize: 16, color: "gray" }} />
           </SearchContainer>
         </Left>

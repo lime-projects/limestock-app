@@ -41,7 +41,8 @@ export const Circle = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 75%;
+  width: 75%;
+  height: 50%;
   z-index: 2;
 `;
 

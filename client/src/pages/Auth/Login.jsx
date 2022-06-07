@@ -1,10 +1,27 @@
 import React from "react";
-import { Container } from "./LoginStyles";
+import {
+  Button,
+  Container,
+  Title,
+  Form,
+  Input,
+  Wrapper,
+  Link,
+} from "./LoginStyles";
 
 const Login = () => {
   return (
     <Container>
-      <h1>Login</h1>
+      <Wrapper>
+        <Title>LOGIN</Title>
+        <Form>
+          <Input placeholder="Username" />
+          <Input placeholder="Password" />
+          <Button>Login</Button>
+          <Link>Forget Password?</Link>
+          <Link>Do not have a account? Register Here</Link>
+        </Form>
+      </Wrapper>
     </Container>
   );
 };

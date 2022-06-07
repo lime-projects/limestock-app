@@ -1,18 +1,21 @@
 import React from "react";
+
+// import Register from "./pages/Auth/Register";
 // import Login from "./pages/Auth/Login";
-import Register from "./pages/Auth/Register";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 // import ProductList from "./pages/ProductList/ProductList";
 // import ProductDetail from "./pages/ProductDetail/ProductDetail";
+// import Cart from "./pages/Cart/Cart";
 
 const App = () => {
   return (
     <>
-      {/* <Home /> */}
+      <Home />
       {/* <ProductList /> */}
       {/* <ProductDetail /> */}
-      <Register />
+      {/* <Register /> */}
       {/* <Login /> */}
+      {/* <Cart /> */}
     </>
   );
 };
